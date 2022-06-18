@@ -10,4 +10,14 @@ function findNemo(arr) {
   console.log(`call to find Nemo took ${(t1 - t0)} ms`)
 }
 
-findNemo(nemo);
+findNemo(nemo);// O(n) --> Linear Time
+
+
+const boxes = [0, 1, 2, 3, 4, 5]
+
+function logFirstTwoBoxes(boxes) {
+  console.log(boxes[0]);
+  console.log(boxes[1]);
+}
+
+logFirstTwoBoxes(boxes);
